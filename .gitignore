@@ -1,0 +1,76 @@
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+*.manifest
+*.spec
+*.dll
+
+# Virtual Environments
+env/
+venv/
+.venv/
+ENV/
+.env/
+*.env
+
+# Build / Distribution
+build/
+dist/
+wheels/
+pip-wheel-metadata/
+.eggs/
+.installed.cfg
+
+# Unit Test / Coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+pytest_cache/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Logs
+*.log
+
+# ---- macOS ----
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+**/.DS_Store
+
+# macOS Thumbnails
+._*
+
+# macOS Folder Settings
+*.plist
+
+# ---- VSCode ----
+.vscode/
+.code-workspace
+
+# ---- PyCharm ----
+.idea/
+
+# ---- Other Common ----
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# If using Django / Flask (optional—remove if not needed)
+*.sqlite3
+instance/
+.venv/
