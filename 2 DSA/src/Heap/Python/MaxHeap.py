@@ -2,7 +2,7 @@ import heapq
 
 class MaxHeap:
     def __init__(self):
-        self.heap = []
+        self.heap = []#12
 
     # Insertion into MaxHeap
     def insert(self, val):
